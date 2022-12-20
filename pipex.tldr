@@ -1,1 +1,449 @@
-{"name":"New Document","fileHandle":null,"document":{"id":"doc","name":"New Document","version":15.5,"pages":{"page":{"id":"page","name":"Page 1","childIndex":1,"shapes":{"e4f8a8c6-7eb6-40d9-1747-0c50c4b1b83d":{"id":"e4f8a8c6-7eb6-40d9-1747-0c50c4b1b83d","type":"text","name":"Text","parentId":"page","childIndex":1,"point":[788.81,131.77],"rotation":0,"text":"pipex","style":{"color":"black","size":"small","isFilled":false,"dash":"draw","scale":13.01186440677966,"font":"script","textAlign":"middle"}},"da4978f7-f4df-40a3-13f9-144fb91862d4":{"id":"da4978f7-f4df-40a3-13f9-144fb91862d4","type":"rectangle","name":"Rectangle","parentId":"page","childIndex":2,"point":[733.22,175.75],"size":[744.94,397.29],"rotation":0,"style":{"color":"black","size":"small","isFilled":false,"dash":"draw","scale":1},"label":"","labelPoint":[0.5,0.5]},"72922ab9-2d67-426e-2e4a-d8814c9fa149":{"id":"72922ab9-2d67-426e-2e4a-d8814c9fa149","type":"rectangle","name":"Rectangle","parentId":"page","childIndex":3,"point":[717.54,160.44],"size":[776.8,432.35],"rotation":0,"style":{"color":"black","size":"small","isFilled":false,"dash":"draw","scale":1},"label":"","labelPoint":[0.5,0.5]},"0c019597-e814-422e-231d-da9db5c6797d":{"id":"0c019597-e814-422e-231d-da9db5c6797d","type":"rectangle","name":"Rectangle","parentId":"page","childIndex":4,"point":[718.07,599.72],"size":[776.8,105.76],"rotation":0,"style":{"color":"black","size":"small","isFilled":false,"dash":"draw","scale":1},"label":"","labelPoint":[0.5,0.5]},"717a8eb4-f32c-4a2c-3b22-e46b6ebc7801":{"id":"717a8eb4-f32c-4a2c-3b22-e46b6ebc7801","type":"text","name":"Text","parentId":"page","childIndex":6,"point":[756.18,625.47],"rotation":0,"text":"Objective of  the project =:> | Handling Pipes |","style":{"color":"black","size":"medium","isFilled":false,"dash":"draw","scale":0.9840940657091148,"font":"script","textAlign":"start"}},"f8c87ece-77c2-4539-26e8-5159f50ad763":{"id":"f8c87ece-77c2-4539-26e8-5159f50ad763","type":"rectangle","name":"Rectangle","parentId":"page","childIndex":6,"point":[718.13,710.11],"size":[776.8,1151.35],"rotation":0,"style":{"color":"black","size":"small","isFilled":false,"dash":"draw","scale":1},"label":"","labelPoint":[0.5,0.5]},"436dd302-b0c4-49c1-2b23-c3cb9f385ab3":{"id":"436dd302-b0c4-49c1-2b23-c3cb9f385ab3","type":"text","name":"Text","parentId":"page","childIndex":7,"point":[895.98,720],"rotation":0,"text":"New things to learn :","style":{"color":"black","size":"medium","isFilled":false,"dash":"draw","scale":1.357894736842106,"font":"script","textAlign":"start"}},"3fc055dd-421d-4d81-02df-0909d2a69775":{"id":"3fc055dd-421d-4d81-02df-0909d2a69775","type":"arrow","name":"Arrow","parentId":"page","childIndex":8,"point":[720.07,815.91],"rotation":0,"bend":-0.010710647719554219,"handles":{"start":{"id":"start","index":0,"point":[0,0],"canBind":true},"end":{"id":"end","index":1,"point":[773.52,1.49],"canBind":true},"bend":{"id":"bend","index":2,"point":[386.76,0.75]}},"decorations":{},"style":{"color":"black","size":"medium","isFilled":false,"dash":"draw","scale":1,"textAlign":"start","font":"script"},"label":"","labelPoint":[0.5,0.5]},"da8b9b78-45ba-4f7e-12ee-76465c68fdac":{"id":"da8b9b78-45ba-4f7e-12ee-76465c68fdac","type":"text","name":"Text","parentId":"page","childIndex":9,"point":[772.95,857.7099999999999],"rotation":0,"text":"~> What is a process ? \n~> How does it work ?\n~> How to use it ?\n~> Learn new functions what they do and\n      how they do it?","style":{"color":"black","size":"medium","isFilled":false,"dash":"draw","scale":1,"font":"script","textAlign":"start"}},"03139149-c258-41c3-08ab-9653dc3be817":{"id":"03139149-c258-41c3-08ab-9653dc3be817","type":"arrow","name":"Arrow","parentId":"page","childIndex":10,"point":[721.09,1126.62],"rotation":0,"bend":0.000013014187491475896,"handles":{"start":{"id":"start","index":0,"point":[0,0],"canBind":true},"end":{"id":"end","index":1,"point":[770.55,2.17],"canBind":true},"bend":{"id":"bend","index":2,"point":[385.28,1.09]}},"decorations":{},"style":{"color":"black","size":"medium","isFilled":false,"dash":"draw","scale":1,"textAlign":"start","font":"script"},"label":"","labelPoint":[0.5,0.5]},"e7471b84-33de-418a-1cc7-9753cbe30fa1":{"id":"e7471b84-33de-418a-1cc7-9753cbe30fa1","type":"arrow","name":"Arrow","parentId":"page","childIndex":11,"point":[718.99,1218.42,0.5],"rotation":0,"bend":-0.000012909808111173193,"handles":{"start":{"id":"start","index":0,"point":[0,0],"canBind":true},"end":{"id":"end","index":1,"point":[771.49,3.09],"canBind":true},"bend":{"id":"bend","index":2,"point":[385.75,1.55]}},"decorations":{},"style":{"color":"black","size":"medium","isFilled":false,"dash":"draw","scale":1,"textAlign":"start","font":"script"},"label":"","labelPoint":[0.5,0.5]},"7b11cac3-7ace-4545-19bc-b6ab8ec026ed":{"id":"7b11cac3-7ace-4545-19bc-b6ab8ec026ed","type":"text","name":"Text","parentId":"page","childIndex":12,"point":[895.6,1133.89],"rotation":0,"text":"The new functions :","style":{"color":"black","size":"medium","isFilled":false,"dash":"draw","scale":1.39158091133005,"font":"script","textAlign":"start"}},"e2c79086-8a3d-42f9-18a1-19fc0722c1c7":{"id":"e2c79086-8a3d-42f9-18a1-19fc0722c1c7","type":"text","name":"Text","parentId":"page","childIndex":13,"point":[773.96,1249.27],"rotation":0,"text":"[1]->perror.\n[2]->strerror.\n[3]->access.\n[4]->dup.\n[5]->dup2.\n[6]->execve.\n[7]->exit.\n[8]->fork.\n[9]->pipe.\n[10]->unlink.\n[11]->wait.\n[12]->waitpid.","style":{"color":"black","size":"medium","isFilled":false,"dash":"draw","scale":1,"font":"script","textAlign":"start"}}},"bindings":{}}},"pageStates":{"page":{"id":"page","selectedIds":["f8c87ece-77c2-4539-26e8-5159f50ad763"],"camera":{"point":[0,-517.04],"zoom":1}}},"assets":{}},"assets":{}}
+{
+  "name": "New Document",
+  "fileHandle": null,
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.5,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "e4f8a8c6-7eb6-40d9-1747-0c50c4b1b83d": {
+            "id": "e4f8a8c6-7eb6-40d9-1747-0c50c4b1b83d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              788.81,
+              131.77
+            ],
+            "rotation": 0,
+            "text": "pipex",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 13.01186440677966,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "da4978f7-f4df-40a3-13f9-144fb91862d4": {
+            "id": "da4978f7-f4df-40a3-13f9-144fb91862d4",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              733.22,
+              175.75
+            ],
+            "size": [
+              744.94,
+              397.29
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "72922ab9-2d67-426e-2e4a-d8814c9fa149": {
+            "id": "72922ab9-2d67-426e-2e4a-d8814c9fa149",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [
+              717.54,
+              160.44
+            ],
+            "size": [
+              776.8,
+              432.35
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "0c019597-e814-422e-231d-da9db5c6797d": {
+            "id": "0c019597-e814-422e-231d-da9db5c6797d",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [
+              718.07,
+              599.72
+            ],
+            "size": [
+              776.8,
+              105.76
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "717a8eb4-f32c-4a2c-3b22-e46b6ebc7801": {
+            "id": "717a8eb4-f32c-4a2c-3b22-e46b6ebc7801",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 6,
+            "point": [
+              756.18,
+              625.47
+            ],
+            "rotation": 0,
+            "text": "Objective of  the project =:> | Handling Pipes |",
+            "style": {
+              "color": "black",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.9840940657091148,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "f8c87ece-77c2-4539-26e8-5159f50ad763": {
+            "id": "f8c87ece-77c2-4539-26e8-5159f50ad763",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 6,
+            "point": [
+              718.13,
+              710.11
+            ],
+            "size": [
+              776.8,
+              1151.35
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "436dd302-b0c4-49c1-2b23-c3cb9f385ab3": {
+            "id": "436dd302-b0c4-49c1-2b23-c3cb9f385ab3",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 7,
+            "point": [
+              895.98,
+              720
+            ],
+            "rotation": 0,
+            "text": "New things to learn :",
+            "style": {
+              "color": "black",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.357894736842106,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "3fc055dd-421d-4d81-02df-0909d2a69775": {
+            "id": "3fc055dd-421d-4d81-02df-0909d2a69775",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 8,
+            "point": [
+              720.07,
+              815.91
+            ],
+            "rotation": 0,
+            "bend": -0.010710647719554219,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  773.52,
+                  1.49
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  386.76,
+                  0.75
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "black",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "start",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "da8b9b78-45ba-4f7e-12ee-76465c68fdac": {
+            "id": "da8b9b78-45ba-4f7e-12ee-76465c68fdac",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 9,
+            "point": [
+              772.95,
+              857.7099999999999
+            ],
+            "rotation": 0,
+            "text": "~> What is a process ? \n~> How does it work ?\n~> How to use it ?\n~> Learn new functions what they do and\n      how they do it?",
+            "style": {
+              "color": "black",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "03139149-c258-41c3-08ab-9653dc3be817": {
+            "id": "03139149-c258-41c3-08ab-9653dc3be817",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 10,
+            "point": [
+              721.09,
+              1126.62
+            ],
+            "rotation": 0,
+            "bend": 0.000013014187491475896,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  770.55,
+                  2.17
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  385.28,
+                  1.09
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "black",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "start",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "e7471b84-33de-418a-1cc7-9753cbe30fa1": {
+            "id": "e7471b84-33de-418a-1cc7-9753cbe30fa1",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 11,
+            "point": [
+              718.99,
+              1218.42,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": -0.000012909808111173193,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  771.49,
+                  3.09
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  385.75,
+                  1.55
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "black",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "start",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "7b11cac3-7ace-4545-19bc-b6ab8ec026ed": {
+            "id": "7b11cac3-7ace-4545-19bc-b6ab8ec026ed",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 12,
+            "point": [
+              895.6,
+              1133.89
+            ],
+            "rotation": 0,
+            "text": "The new functions :",
+            "style": {
+              "color": "black",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.39158091133005,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "e2c79086-8a3d-42f9-18a1-19fc0722c1c7": {
+            "id": "e2c79086-8a3d-42f9-18a1-19fc0722c1c7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 13,
+            "point": [
+              773.96,
+              1249.27
+            ],
+            "rotation": 0,
+            "text": "[1]->perror.\n[2]->strerror.\n[3]->access.\n[4]->dup.\n[5]->dup2.\n[6]->execve.\n[7]->exit.\n[8]->fork.\n[9]->pipe.\n[10]->unlink.\n[11]->wait.\n[12]->waitpid.",
+            "style": {
+              "color": "black",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [
+          "f8c87ece-77c2-4539-26e8-5159f50ad763"
+        ],
+        "camera": {
+          "point": [
+            0,
+            -517.04
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}

@@ -6,7 +6,7 @@
 /*   By: faksouss <faksouss@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 22:45:45 by faksouss          #+#    #+#             */
-/*   Updated: 2022/10/17 01:00:08 by faksouss         ###   ########.fr       */
+/*   Updated: 2022/12/20 00:15:30 by faksouss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ static char	*ft_concat(char *s, char *d)
 	return (d);
 }
 
-char	*ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char *s1, char *s2)
 {
 	char	*d;
 

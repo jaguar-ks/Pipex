@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   pipex.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deman_wolf <deman_wolf@student.42.fr>      +#+  +:+       +#+        */
+/*   By: faksouss <faksouss@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/17 14:40:08 by deman_wolf        #+#    #+#             */
-/*   Updated: 2022/12/17 19:17:19 by deman_wolf       ###   ########.fr       */
+/*   Updated: 2022/12/20 01:50:23 by faksouss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 #define PIPEX_H
 
 #include"../libtool/libft.h"
+
+char	*get_path(char **en, char *cmd);
 
 #endif
