@@ -1,7 +1,8 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/faksouss/Desktop/Pipex'
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/deman_wolf/Desktop/Pipex'
+mkdir obj
+# mkdir 
+make: Leaving directory '/home/deman_wolf/Desktop/Pipex'
  
-make: Leaving directory `/Users/faksouss/Desktop/Pipex'
- 
-make: *** No targets specified and no makefile found.  Stop.
+make: *** No rule to make target 'obj/main.o', needed by 'pipex'.
 

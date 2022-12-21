@@ -1,33 +1,7 @@
-Process:         a.out [25874]
-Path:            /Volumes/VOLUME/*/a.out
-Load Address:    0x10e1db000
-Identifier:      a.out
-Version:         ???
-Code Type:       X86-64
-Parent Process:  zsh [2649]
-
-Date/Time:       2022-12-20 01:58:17.151 +0100
-Launch Time:     2022-12-20 01:58:16.862 +0100
-OS Version:      Mac OS X 10.14.6 (18G9323)
-Report Version:  7
-Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
-Analysis Tool Version:  Xcode 11.3.1 (11C505)
-----
-
-leaks Report Version: 4.0
-Process 25874: 166 nodes malloced for 18 KB
-Process 25874: 0 leaks for 0 total leaked bytes.
-
-total 80
-drwxr-xr-x  12 faksouss  candidate    408 Dec 20 01:58 .
-drwxr-xr-x  31 faksouss  candidate   1054 Dec 20 01:10 ..
-drwxr-xr-x  15 faksouss  candidate    510 Dec 19 19:45 .git
-drwxr-xr-x   5 faksouss  candidate    170 Dec 17 23:10 .vscode
--rw-r--r--   1 faksouss  candidate     46 Dec 17 23:09 README.md
--rwxr-xr-x   1 faksouss  candidate  13520 Dec 20 01:58 a.out
--rw-r--r--   1 faksouss  candidate   1347 Dec 20 01:57 hello.txt
-drwxr-xr-x   3 faksouss  candidate    102 Dec 19 19:45 inc
-drwxr-xr-x  95 faksouss  candidate   3230 Dec 20 00:16 libtool
--rw-------@  1 faksouss  candidate  12186 Dec 19 19:49 pipex.tldr
-drwxr-xr-x   4 faksouss  candidate    136 Dec 20 01:49 src
--rw-r--r--   1 faksouss  candidate    937 Dec 20 01:58 tst.c
+int main(int ac, char **av, char **en)
+	char	*pth;
+	char	**cmd;
+	// char *c = get_cmd(av[1]);
+	// char *r = get_path(en, c);
+	// char	**r;
+	// printf("---->%s", (char *)r);
