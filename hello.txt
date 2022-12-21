@@ -1,7 +1,0 @@
-int main(int ac, char **av, char **en)
-	char	*pth;
-	char	**cmd;
-	// char *c = get_cmd(av[1]);
-	// char *r = get_path(en, c);
-	// char	**r;
-	// printf("---->%s", (char *)r);
