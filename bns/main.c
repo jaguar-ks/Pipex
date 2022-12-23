@@ -3,34 +3,32 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: deman_wolf <deman_wolf@student.42.fr>      +#+  +:+       +#+        */
+/*   By: faksouss <faksouss@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/22 22:08:37 by faksouss          #+#    #+#             */
-/*   Updated: 2022/12/23 20:21:29 by deman_wolf       ###   ########.fr       */
+/*   Updated: 2022/12/24 00:53:38 by faksouss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"../inc/pipex.h"
 
-void	here_doc(int *fd, char *limite)
+void	here_doc(int fd, char *limite)
 {
 	char	*r;
-	char	*fl;
 
 	while (1)
 	{
 		write(1, "heredoc> ", 10);
 		r = get_next_line(0);
-		if (!ft_strncmp(r, limite, ft_strlen(limite))
-			&& ft_strlen(limite) + 1 == ft_strlen(r))
+		if ((!ft_strncmp(r, limite, ft_strlen(limite))
+			&& ft_strlen(limite) + 1 == ft_strlen(r)) || !r)
 		{
-			// free(r);
+			free(r);
 			break ;
 		}
-		fl = join_str(fl, r);
+		write(fd, r, ft_strlen(r));
+		free(r);
 	}
-	write(*fd, fl, ft_strlen(fl));
-	free(fl);
 }
 
 int	open_ingresso(char **av)
@@ -42,7 +40,7 @@ int	open_ingresso(char **av)
 		ingresso = open(".here_doc.txt", (O_CREAT | O_WRONLY), 0777);
 		if (ingresso < 0)
 			exit(error());
-		here_doc(&ingresso, av[2]);
+		here_doc(ingresso, av[2]);
 	}
 	else
 	{
@@ -58,6 +56,8 @@ void	sacco_di_bambini(char *cm, char **en, int ingresso, int *fd)
 	int		pid;
 	char	**cmd;
 
+	if (pipe(fd) < 0)
+		exit(error());
 	cmd = ft_split(cm, ' ');
 	pid = fork();
 	if (!pid)
@@ -97,8 +97,6 @@ int	main(int ac, char **av, char **en)
 
 	if (ac > 5)
 	{
-		if (pipe(fd) < 0)
-			exit(error());
 		if (!ft_strncmp(av[1], "here_doc", 9))
 			i = 3;
 		else
