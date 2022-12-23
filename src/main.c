@@ -3,44 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: faksouss <faksouss@student.42.fr>          +#+  +:+       +#+        */
+/*   By: deman_wolf <deman_wolf@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/17 14:41:05 by deman_wolf        #+#    #+#             */
-/*   Updated: 2022/12/23 03:16:53 by faksouss         ###   ########.fr       */
+/*   Updated: 2022/12/23 19:22:27 by deman_wolf       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"../inc/pipex.h"
-
-int	error(void)
-{
-	perror("Error");
-	return (errno);
-}
-
-char	*get_path(char **en, char *cm)
-{
-	char	**pth;
-	char	*r;
-	char	*cmd;
-	int		i;
-
-	i = 0;
-	while (ft_strncmp((en[i]), "PATH", 4))
-		i++;
-	pth = ft_split((en[i] + 5), ':');
-	i = -1;
-	cmd = ft_strjoin("/", cm);
-	while (pth[++i])
-	{
-		r = ft_strjoin(pth[i], cmd);
-		if (access(r, (X_OK)) == 0)
-			break ;
-		free(r);
-		r = NULL;
-	}
-	return (deallocate(pth), free(cmd), r);
-}
 
 void	bambino_processo(char **av, char **en, int *fd)
 {
@@ -54,7 +24,10 @@ void	bambino_processo(char **av, char **en, int *fd)
 	cmd = ft_split(av[2], ' ');
 	pth = get_path(en, *cmd);
 	if (!pth)
-		exit(ft_putstr_fd("Error: command not found\n", 2));
+	{
+		ft_putstr_fd("Error: command not found\n", 2);
+		exit(errno);
+	}
 	dup2(fd[1], STDOUT_FILENO);
 	dup2(ingresso, STDIN_FILENO);
 	close(fd[0]);
@@ -74,7 +47,10 @@ void	padre_processo(char **av, char **en, int *fd)
 	cmd = ft_split(av[3], ' ');
 	pth = get_path(en, *cmd);
 	if (!pth)
-		exit(ft_putstr_fd("Error: command not found\n", 2));
+	{
+		ft_putstr_fd("Error: command not found\n", 2);
+		exit(127);
+	}
 	dup2(fd[0], STDIN_FILENO);
 	dup2(produzione, STDOUT_FILENO);
 	close(fd[1]);
@@ -90,7 +66,7 @@ int	main(int ac, char **av, char **en)
 	if (ac == 5)
 	{
 		if (pipe(fd) < 0)
-			exit(error());
+			exit(127);
 		pid = fork();
 		if (!pid)
 			bambino_processo(av, en, fd);

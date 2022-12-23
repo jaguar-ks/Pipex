@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   pipex.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: faksouss <faksouss@student.42.fr>          +#+  +:+       +#+        */
+/*   By: deman_wolf <deman_wolf@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/17 14:40:08 by deman_wolf        #+#    #+#             */
-/*   Updated: 2022/12/23 02:30:23 by faksouss         ###   ########.fr       */
+/*   Updated: 2022/12/23 19:21:46 by deman_wolf       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,6 @@
 
 char	*get_path(char **en, char *cmd);
 int		error(void);
+void	eseguire_il_comanda(char **cmd, char **en);
 
 #endif

@@ -1,10 +1,5 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/faksouss/Desktop/Pipex'
-mkdir obj
-# mkdir 
- 
-cc -g -Wall -Wextra -Werror -c src/main.c -o obj/main.o
-make -C ./libtool
-cc -Wall -Wextra -Werror obj/main.o ./libtool/libft.a -o pipex
-make: Leaving directory `/Users/faksouss/Desktop/Pipex'
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/deman_wolf/Desktop/Pipex'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/deman_wolf/Desktop/Pipex'
  

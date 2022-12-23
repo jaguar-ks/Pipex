@@ -5,75 +5,56 @@
 #                                                     +:+ +:+         +:+      #
 #    By: deman_wolf <deman_wolf@student.42.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/11/24 19:48:40 by deman_wolf        #+#    #+#              #
-#    Updated: 2022/12/21 04:41:19 by deman_wolf       ###   ########.fr        #
+#    Created: 2022/12/23 19:50:24 by deman_wolf        #+#    #+#              #
+#    Updated: 2022/12/23 20:23:32 by deman_wolf       ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+MD = src/main.c\
+	utl/utils.c\
 
-SRCS_MD = main.c
+BN = bns/main.c\
+	utl/get_next_line.c\
+	utl/get_next_line_utils.c\
+	utl/utils.c\
 
-# BNS = 
+OBJ_MD = ${MD:.c=.o}
+
+OBJ_BN = ${BN:.c=.o}
 
 FLAGS = -Wall -Wextra -Werror
 
-CC = cc
-
-SRC_DIR = src
-
-SRC_MD = $(addprefix $(SRC_DIR)/,$(SRCS_MD))
-
-OBJ_DIR = obj
-
-OBJS_MD = $(addprefix $(OBJ_DIR)/,${SRCS_MD:.c=.o})
-
-# BNS_DIR = bns
-
-# OBJ_B_DIR = obj_b
-
-# BNS_S = $(addprefix ${BNS_DIR}/,${BNS})
-
-# OBJS_BN = ${addprefix ${OBJ_B_DIR}/,${BNS:.c=.o}}
-
-HEADER = inc/pipex.h
-
-# BNS_H = inc/checker.h
-
-NAME = pipex
-
-# BNS_NAME = checker
+INC = inc/pipex.h
 
 RM = rm -rf
 
-all : ${OBJ_DIR} ${NAME}
+NAME = pipex
 
-# bonus : ${BNS_NAME}
+NAME_BN = pipex_bn
 
-${NAME} : ${OBJS_MD}
-	make -C ./libtool
-	${CC} ${FLAGS} $^ ./libtool/libft.a -o $@
+all: ${NAME}
 
-# ${BNS_NAME} : ${OBJS_BN}
-# 	${CC} ${FLAGS} $^ ./libtool/libft.a -o $@
+${NAME}: ${OBJ_MD}
+	make -C libtool
+	cc ${FLAGS} $^ libtool/libft.a -o $@
 
-# ${OBJ_B_DIR}/%.o : ${BNS_DIR}/%.c ${BNS_H} ${HEADER}
-# 	@${CC} -g ${FLAGS} -c $< -o $@
+bonus: ${NAME_BN}
 
-${OBJ_DIR}/%.o : ${SRC_DIR}/%.c ${HEADER}
-	@${CC} -g ${FLAGS} -c $< -o $@
+${NAME_BN}: ${OBJ_BN}
+	make -C libtool 
+	cc ${FLAGS} $^ libtool/libft.a -o $@
 
-$(OBJ_DIR) :
-	mkdir ${OBJ_DIR}
-	# mkdir ${OBJ_B_DIR}
+%.o: %.c ${INC}
+	@cc ${FLAGS} -c $< -o $@
 
-clean :
-	${RM} ${OBJ_DIR} ${OBJ_B_DIR} libtool/*.o
+clean:
+	${RM} src/*.o bns/*.o utl/*.o libtool/*.o
 
-fclean : clean
-	${RM} ${NAME} ${BNS_NAME} libtool/*.a
+fclean: clean
+	${RM} ${NAME} ${NAME_BN} libtool/libft.a
 
-re : fclean all
+re: fclean all
 
-.PHONY : all clean fclean re
+.PHONY: all bonus clean fclean re
 
-.SILENT : ${NAME} ${BNS_NAME} clean fclean $(OBJ_DIR) re 
+.SILENT: ${NAME} ${NAME_BN} clean fclean re
