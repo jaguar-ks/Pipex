@@ -6,7 +6,7 @@
 /*   By: faksouss <faksouss@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/17 14:41:05 by deman_wolf        #+#    #+#             */
-/*   Updated: 2022/12/21 23:33:32 by faksouss         ###   ########.fr       */
+/*   Updated: 2022/12/23 03:16:53 by faksouss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	error(void)
 {
 	perror("Error");
-	return (1);
+	return (errno);
 }
 
 char	*get_path(char **en, char *cm)
