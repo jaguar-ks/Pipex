@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Dec 23 20:10:05 2022
+# Make data base, printed on Sun Dec 25 03:19:55 2022
 
 # Variables
 
@@ -23,7 +23,6 @@ VSCODE_CWD = /home/deman_wolf
 # environment
 WINDOWPATH = 2
 # environment
- 
 LESS_TERMCAP_me = [0m
 # environment
 GDM_LANG = en_US.UTF-8
@@ -240,7 +239,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 GDMSESSION = gnome
 # variable set hash-table stats:
-# Load=114/1024=11%, Rehash=0, Collisions=11/155=7%
+# Load=114/1024=11%, Rehash=0, Collisions=11/159=7%
 
 # Pattern-specific Variable Values
 
@@ -248,12 +247,11 @@ GDMSESSION = gnome
 
 # Directories
 
-# utl (device 66311, inode 2379242): 2 files, no impossibilities so far.
 # inc (device 66311, inode 2379266): 1 files, no impossibilities so far.
-# src (device 66311, inode 2379268): 4 files, no impossibilities so far.
+# src (device 66311, inode 2379268): 3 files, no impossibilities so far.
 # . (device 66311, inode 2379254): 14 files, no impossibilities.
 
-# 21 files, no impossibilities in 4 directories.
+# 18 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -273,7 +271,7 @@ utl/get_next_line_utils.o:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-12-23 20:08:50.159797558
+#  Last modified 2022-12-23 20:23:32.213092977
 #  File has been updated.
 #  Successfully updated.
 
@@ -287,9 +285,11 @@ pipex_bn: bns/main.o utl/get_next_line.o utl/get_next_line_utils.o utl/utils.o
 
 pipex: src/main.o utl/utils.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-12-23 20:08:53.760995009
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
 #  recipe to execute (from 'Makefile', line 38):
 	make -C libtool
 	cc ${FLAGS} $^ libtool/libft.a -o $@
@@ -311,7 +311,7 @@ clean:
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 51):
-	${RM} *.o libtool/*.o
+	${RM} src/*.o bns/*.o utl/*.o libtool/*.o
 
 # Not a target:
 src/main.c:
@@ -326,21 +326,36 @@ re: fclean all
 #  File does not exist.
 #  File has not been updated.
 
-utl/utils.o: utl/utils.c inc/pipex.h
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'utl/utils'
-#  Last modified 2022-12-23 20:08:52.884703629
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 48):
-	@cc ${FLAGS} -c $< -o $@
+# Not a target:
+utl/utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 src/main.o: src/main.c inc/pipex.h
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'src/main'
-#  Last modified 2022-12-23 20:08:52.864696976
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := src/main.o
+# automatic
+# * := src/main
+# automatic
+# < := src/main.c
+# automatic
+# + := src/main.c inc/pipex.h
+# automatic
+# % := 
+# automatic
+# ^ := src/main.c inc/pipex.h
+# automatic
+# ? := src/main.c inc/pipex.h
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
 #  recipe to execute (from 'Makefile', line 48):
 	@cc ${FLAGS} -c $< -o $@
 
@@ -362,7 +377,9 @@ all: pipex
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
 
 fclean: clean
 #  Phony target (prerequisite of .PHONY).
@@ -373,6 +390,7 @@ fclean: clean
 	${RM} ${NAME} ${NAME_BN} libtool/libft.a
 
 # Not a target:
+ 
 bns/main.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -384,13 +402,6 @@ bns/main.o:
 #  File has not been updated.
 
 # Not a target:
-utl/utils.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-12-23 19:41:23.380219687
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
 inc/pipex.h:
 #  Implicit rule search has been done.
 #  Last modified 2022-12-23 19:21:46.372847808
@@ -398,19 +409,19 @@ inc/pipex.h:
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=20/1024=2%, Rehash=0, Collisions=0/64=0%
+# Load=19/1024=2%, Rehash=0, Collisions=0/58=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 43 / storage = 379 B / avg = 8 B
-# current buf: size = 8162 B / used = 379 B / count = 43 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 38 / storage = 317 B / avg = 8 B
+# current buf: size = 8162 B / used = 317 B / count = 38 / avg = 8 B
 
-# strcache performance: lookups = 85 / hit rate = 49%
+# strcache performance: lookups = 76 / hit rate = 50%
 # hash-table stats:
-# Load=43/8192=1%, Rehash=0, Collisions=0/85=0%
-# Finished Make data base on Fri Dec 23 20:10:05 2022
+# Load=38/8192=0%, Rehash=0, Collisions=0/76=0%
+# Finished Make data base on Sun Dec 25 03:19:55 2022
 
  

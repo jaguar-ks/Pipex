@@ -6,17 +6,17 @@
 /*   By: deman_wolf <deman_wolf@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/23 19:20:40 by deman_wolf        #+#    #+#             */
-/*   Updated: 2022/12/23 19:41:23 by deman_wolf       ###   ########.fr       */
+/*   Updated: 2022/12/25 04:25:34 by deman_wolf       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"../inc/pipex.h"
 
-void	eseguire_il_comanda(char **cmd, char **en)
+void	do_cmd(char **cmd, char **en)
 {
 	char	*pth;
 
-	pth = get_path(en, cmd[1]);
+	pth = get_path(en, cmd[0]);
 	if (!pth)
 	{
 		deallocate(cmd);
