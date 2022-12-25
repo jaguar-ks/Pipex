@@ -6,7 +6,7 @@
 /*   By: faksouss <faksouss@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 23:58:42 by faksouss          #+#    #+#             */
-/*   Updated: 2022/12/23 03:20:48 by faksouss         ###   ########.fr       */
+/*   Updated: 2022/12/24 00:50:59 by faksouss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ char	*join_str(char *s1, char *s2)
 		j = -1;
 		d = (char *)malloc(ft_strlen(s1) + ft_strlen(s2) + 1);
 		if (!d)
-			return (free(s1), NULL);
+			return (free(s1), free(s2),NULL);
 		while (s1[++i])
 			d[i] = s1[i];
 		while (s2[++j])
