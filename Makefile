@@ -6,7 +6,7 @@
 #    By: faksouss <faksouss@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/23 19:50:24 by deman_wolf        #+#    #+#              #
-#    Updated: 2022/12/25 22:40:29 by faksouss         ###   ########.fr        #
+#    Updated: 2022/12/25 23:07:58 by faksouss         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,7 +38,7 @@ ${NAME}: ${OBJ_MD}
 	@echo "\033[33m----Compiling lib----"
 	make -C libtool
 	cc ${FLAGS} $^ libtool/libft.a -o $@
-	@echo "\033[32mPipex Bonus Compiled! ᕦ(\033[31m♥\033[32m_\033[31m♥\033[32m)ᕤ\n"
+	@echo "\033[32mPipex Mondatory Compiled! ᕦ(\033[31m♥\033[32m_\033[31m♥\033[32m)ᕤ\n"
 
 
 bonus: ${NAME_BN}
