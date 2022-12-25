@@ -6,7 +6,7 @@
 /*   By: deman_wolf <deman_wolf@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/17 14:41:05 by deman_wolf        #+#    #+#             */
-/*   Updated: 2022/12/25 22:00:13 by deman_wolf       ###   ########.fr       */
+/*   Updated: 2022/12/25 22:01:49 by deman_wolf       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int	main(int ac, char **av, char **en)
 	if (ac == 5)
 	{
 		if (pipe(fd) < 0)
-			exit(127);
+			exit(error());
 		pid = fork();
 		if (!pid)
 			bambino_processo(av, en, fd);
