@@ -5,7 +5,9 @@
     D|2-> the subject;
     3-> the fundimantels of the project [SHOULD KNOW!];
         1=> what is a proces;
-        2=> how does it work;
+        2=> process states;
+        3=> how to creat a process and what happend when you  creat a child process;
+        4=> what is a pipe how does it work;
     4-> my way of solving the project with explaining;
     5-> the finale note;
     6-> auther to contact me;
@@ -17,6 +19,8 @@ This project is about understanding what processes and pipes are and how they wo
 1. [*Process.*](#process)
     1. [What is a process?](#what-is-a-process)
     1. [Process states.](#process-states)
+1. [*Pipe.*](#pipe)
+    1. [What is a Pipe?](#what-is-a-pipe)
 ---
 ## **The assignment.**
 
@@ -66,5 +70,10 @@ Check out the subject for more understanding. [**here**.](./en.subject.pdf)
 | Waiting |Process moves into the waiting state if it needs to wait for a resource, such as waiting for user input, or waiting for a file to become available. |
 | Terminated | Once the process finishes its execution, or it is terminated by the operating system, it is moved to the terminated state where it waits to be removed from main memory.|
 
+## **Pipe.**
 
+### ***What is a Pipe?***
 
+>In computer programming, a pipe is a technique for passing information from one [*process*](#process) to another in a oneway direction.
+
+![img](https://cdn.ttgtmedia.com/rms/onlineimages/how_pipes_work-h.png)
