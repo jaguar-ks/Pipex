@@ -1,17 +1,5 @@
 # **PIPEX**
 
-<!--
-    D|1-> what the subject all about;
-    D|2-> the subject;
-    3-> the fundimantels of the project [SHOULD KNOW!];
-        1=> what is a proces;
-        2=> process states;
-        3=> how to creat a process and what happend when you  creat a child process;
-        4=> what is a pipe how does it work;
-    4-> the finale note;
-    5-> auther to contact me;
--->
-
 This project is about understanding what processes and pipes are and how they work and this documentation should give you the basics and help you start the project.
 
 1. [*The assignment.*](#the-assignment)
@@ -24,7 +12,8 @@ This project is about understanding what processes and pipes are and how they wo
     1. [What is a Pipe?](#what-is-a-pipe)
     1. [How does it work?](#how-does-it-work)
 
-1. [*Authers & Final mark:*](#authers--final-mark)
+1. [*Authors & Final mark:*](#authors--final-mark)
+
 
 1. [*Subject*](./en.subject.pdf)
 
@@ -34,13 +23,13 @@ This project is about understanding what processes and pipes are and how they wo
 
 ### ***Mandatory part.***
 
-- You must create a programme that act exactly as bash:
+- You must create a program that act exactly as bash:
 
 ``` bash
-    < infile cmd1 | cmd2 > outfile
+    < infile cmd[1] | cmd[2] > outfile
 ```
 
-- Your programme must only take 4 parametres as follows:
+- Your program must only take 4 parameters as follows:
 
 ``` bash
     ./pipex infile cmd1 cmd2 outfile
@@ -50,28 +39,28 @@ This project is about understanding what processes and pipes are and how they wo
 
 ### ***Bonus part.***
 
-- The Bonus part is about multipel pipes and repreducing the HERE_DOC bihavior so it should work like:
+- The Bonus part is about multiple pipes and reproducing the HERE_DOC behavior so it should work like:
 
 ``` bash
-    < infile cmd1 | ... | cmdn > outfile
+    < infile cmd[1] | ... | cmd[n] > outfile
 ```
 
 or:
 
 ``` bash
-    << LIMITER cmd1 | ... | cmdn >> outfile
+    << LIMITER cmd[1] | ... | cmd[n] >> outfile
 ```
 
-- Your programme will be called as:
+- Your program will be called as:
 
 ``` bash
-    ./pipex_bonus infile cmd1 ... cmdn outfile
+    ./pipex_bonus infile cmd[1] ... cmd[n] outfile
 ```
 
 or :
 
 ``` bash
-    ./pipex_bonus here_doc LIMITER cmd1 ... cmdn outfile
+    ./pipex_bonus here_doc LIMITER cmd[1] ... cmd[n] outfile
 ```
 
 Check out the subject for more understanding. [**here**.](./en.subject.pdf)
@@ -104,7 +93,7 @@ Check out the subject for more understanding. [**here**.](./en.subject.pdf)
 
 > The pipe works by creating a buffer in the kernel and returning two file descriptors (FDs) that refer to it.
 
-## **Authers & Final mark::**
+## **Authors & Final mark::**
 
 This project was done by [**jaguar-ks**](https://github.com/jaguar-ks):
 
