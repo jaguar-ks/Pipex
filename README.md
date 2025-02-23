@@ -32,7 +32,7 @@ This project is about understanding what processes and pipes are and how they wo
 - Your program must only take 4 parameters as follows:
 
 ``` bash
-    ./pipex infile cmd1 cmd2 outfile
+    ./pipex infile cmd[1] cmd[2] outfile
 ```
 
 ---
