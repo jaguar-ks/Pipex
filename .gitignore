@@ -1,0 +1,8 @@
+#vscode
+*.DS_Store
+.vscode
+
+# objs libs
+*.o
+*.a
+obj
