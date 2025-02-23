@@ -8,11 +8,12 @@
         2=> process states;
         3=> how to creat a process and what happend when you  creat a child process;
         4=> what is a pipe how does it work;
-    4-> my way of solving the project with explaining;
-    5-> the finale note;
-    6-> auther to contact me;
+    4-> the finale note;
+    5-> auther to contact me;
 -->
+
 This project is about understanding what processes and pipes are and how they work and this documentation should give you the basics and help you start the project.
+
 1. [*The assignment.*](#the-assignment)
     1. [Mandatory part.](#mandatory-part)
     1. [Bonus part.](#bonus-part)
@@ -21,33 +22,52 @@ This project is about understanding what processes and pipes are and how they wo
     1. [Process states.](#process-states)
 1. [*Pipe.*](#pipe)
     1. [What is a Pipe?](#what-is-a-pipe)
+    1. [How does it work?](#how-does-it-work)
+
+1. [*Authers & Final mark:*](#authers--final-mark)
+
 ---
+
 ## **The assignment.**
 
 ### ***Mandatory part.***
+
 - You must create a programme that act exactly as bash:
+
 ``` bash
     < infile cmd1 | cmd2 > outfile
 ```
+
 - Your programme must only take 4 parametres as follows:
+
 ``` bash
     ./pipex infile cmd1 cmd2 outfile
 ```
+
 ---
+
 ### ***Bonus part.***
+
 - The Bonus part is about multipel pipes and repreducing the HERE_DOC bihavior so it should work like:
+
 ``` bash
     < infile cmd1 | ... | cmdn > outfile
 ```
+
 or:
+
 ``` bash
     << LIMITER cmd1 | ... | cmdn >> outfile
 ```
+
 - Your programme will be called as:
+
 ``` bash
     ./pipex_bonus infile cmd1 ... cmdn outfile
 ```
+
 or :
+
 ``` bash
     ./pipex_bonus here_doc LIMITER cmd1 ... cmdn outfile
 ```
@@ -77,3 +97,13 @@ Check out the subject for more understanding. [**here**.](./en.subject.pdf)
 >In computer programming, a pipe is a technique for passing information from one [*process*](#process) to another in a oneway direction.
 
 ![img](https://cdn.ttgtmedia.com/rms/onlineimages/how_pipes_work-h.png)
+
+### ***How does it work?***
+
+> The pipe works by creating a buffer in the kernel and returning two file descriptors (FDs) that refer to it.
+
+## **Authers & Final mark::**
+
+This project was done by [**jaguar-ks**](https://github.com/jaguar-ks):
+
+![mark](https://github.com/jaguar-ks/ft_IRC/blob/main/final_mark.png?raw=true)
