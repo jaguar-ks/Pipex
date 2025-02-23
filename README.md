@@ -26,6 +26,8 @@ This project is about understanding what processes and pipes are and how they wo
 
 1. [*Authers & Final mark:*](#authers--final-mark)
 
+1. [*Subject*](./en.subject.pdf)
+
 ---
 
 ## **The assignment.**
